@@ -14,7 +14,7 @@ body {
     padding: 15px;
     display: flex;
     justify-content: flex-end;
-    border-radius: 55px 0;
+    border-radius: 45px 0;
 }
 
 #searchplaceholder {
