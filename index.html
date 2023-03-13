@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Movie APP</title>
+</head>
+<body>
+    <nav class="navbar sticky-top p-1 bg-body-tertiary header">
+        <div class="container-fluid">
+        <a class="navbar-brand fs-2 fst-italic ps-5">WATCH MOVIES HERE</a>
+        <form class="d-flex" id="form" role="search">
+            <input class="form-control me-2" id="searchplaceholder" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" id="search" type="submit">Search</button>
+        </form>
+        </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./imgs/avatar.jpg" class="d-block">
+        </div>
+        <div class="carousel-item">
+            <img src="./imgs/scream.jpg" class="d-block">
+        </div>
+        <div class="carousel-item">
+            <img src="./imgs/die hart.jpg" class="d-block">
+        </div>
+        <div class="carousel-item">
+            <img src="./imgs/cabin.jpg" class="d-block">
+        </div>
+        <div class="carousel-item">
+            <img src="./imgs/pinb.jpg" class="d-block">
+        </div>
+        <div class="carousel-item">
+            <img src="./imgs/shark.jpg" class="d-block">
+        </div>
+        <div class="carousel-item">
+            <img src="./imgs/wakanda.jpg" class="d-block">
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <main id="main"></main>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
